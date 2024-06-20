@@ -9,7 +9,7 @@ url:                   https://JBumLee.github.io
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
+baseurl:               '/'
 
 
 # General settings
@@ -49,13 +49,15 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Java
-    url:               /docs/java
+    url:               /java/
   - title:             Spring
-    url:               /docs/spring
+    url:               /spring/
   - title:             Blog만들기
-    url:               /docs/blog
+    url:               /blog/
   - title:             CS
-    url:               /docs/cs
+    url:               /cs/
+  - title:             Cloud(Network, Architecture)
+    url:               /cloud/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -81,7 +83,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
